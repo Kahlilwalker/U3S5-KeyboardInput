@@ -2,7 +2,7 @@ public class Input01 {
     public static void main(String[] args) {
         //Create a JOptionPane.
         //Store the input as a String and print it.
-        
+        //hello
         
         
         //Parse the input as an int.
