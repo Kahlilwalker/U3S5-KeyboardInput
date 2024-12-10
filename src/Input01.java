@@ -1,10 +1,14 @@
+import javax.swing.*;
+
 public class Input01 {
     public static void main(String[] args) {
         //Create a JOptionPane.
         //Store the input as a String and print it.
-        //hello
-        
-        
+        String greet = JOptionPane.showInputDialog("Hello");
+
+        System.out.println(greet);
+
+
         //Parse the input as an int.
         //Print its value +1
         
