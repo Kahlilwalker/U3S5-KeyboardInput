@@ -3,10 +3,11 @@ import javax.swing.JOptionPane;
 public class Input02 {
     public static void main(String[] args) {
         
-        JOptionPane.showMessageDialog(null,
+        JOptionPane.showConfirmDialog(null,
+                "Pick One",
                 "There's no input here, just a message",
-                "Title",
-                0);
+                JOptionPane.YES_NO_CANCEL_OPTION,
+        JOptionPane.INFORMATION_MESSAGE);
 
         
         String input1 = (String)JOptionPane.showInputDialog(null,
